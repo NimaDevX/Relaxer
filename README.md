@@ -5,15 +5,6 @@
 - `JavaScript/` — کدهای جاوااسکریپت (`Script.js`).
 - `Images/` — تصاویر پروژه.
 
-راه‌اندازی و استفاده 
-
-این پروژه یک سایت استاتیک ساده است. برای اجرای آن کافی است فایل `HTML\\Index.html` را در مرورگر باز کنید. اگر می‌خواهید از یک سروِر محلی استفاده کنید (برای مثال برای اجتناب از محدودیت‌های CORS)، می‌توانید یک سرور ساده با پایتون اجرا کنید:
-
-```powershell
-# در PowerShell (Windows)
-python -m http.server 8000
-# سپس به http://localhost:8000/HTML/ بروید
-```
 
 یا از افزونه‌های مانند Live Server در VS Code استفاده کنید.
 
@@ -29,11 +20,5 @@ This file contains a short bilingual README for the "Relaxer" project. Below is 
 - `Images/` — project images.
 
 Relaxer is a simple static website. To view it, open `HTML\\Index.html` in your browser. If you prefer to run a local server (useful to avoid CORS or to test fetch requests), you can start a simple Python HTTP server:
-
-```powershell
-# In PowerShell (Windows)
-python -m http.server 8000
-# Then open http://localhost:8000/HTML/ in your browser
-```
 
 Alternatively, use the Live Server extension in VS Code.
